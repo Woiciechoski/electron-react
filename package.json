@@ -4,6 +4,10 @@
   "version": "0.0.1-beta.1",
   "description": "Base para criar projeto electron utilizando react",
   "main": "app/electron/index.js",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/Woiciechoski/electron-react"
+  },
   "homepage": "./",
   "scripts": {
     "start": "electron-forge start",
@@ -15,7 +19,8 @@
   "keywords": [],
   "author": {
     "name": "Willian Woiciechoski",
-    "email": "wwoiciechoski@gmail.com"
+    "email": "wwoiciechoski@gmail.com",
+    "url": "https://github.com/Woiciechoski/electron-react"
   },
   "license": "MIT",
   "dependencies": {
