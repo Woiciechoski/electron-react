@@ -1,5 +1,5 @@
 {
-  "name": "@woiciechoski/electron-react",
+  "name": "electron-react",
   "productName": "electron-react",
   "version": "0.0.1-beta.1",
   "description": "Base para criar projeto electron utilizando react",
