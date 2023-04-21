@@ -1,10 +1,7 @@
 # @woiciechoski/electron-react
 
-[![Versão npm](https://badge.fury.io/js/%40woiciechoski%2Felectron-react.svg)](https://www.npmjs.com/package/@woiciechoski/electron-react)
-
 @woiciechoski/electron-react é um conjunto de ferramentas para desenvolvimento de aplicativos desktop usando Electron e React. Ele fornece uma estrutura sólida para criar aplicativos desktop multiplataforma usando tecnologias web familiares, como React para a interface do usuário e Electron para empacotar e distribuir o aplicativo.
 
-Esta versão é a 0.0.1-beta.1 do projeto e inclui recursos iniciais e funcionalidades básicas para começar a desenvolver seu aplicativo desktop com Electron e React.
 
 ## Recursos
 
@@ -18,10 +15,10 @@ Esta versão é a 0.0.1-beta.1 do projeto e inclui recursos iniciais e funcional
 Você pode criar um novo projeto Electron/React usando o seguinte comando:
 
 ```bash
-yarn create @woiciechoski/electron-react@0.0.1-beta.1
+yarn create @woiciechoski/electron-react-app my-app
 ```
 
-Isso criará um novo projeto com a versão específica do pacote @woiciechoski/electron-react.
+Isso criará um novo projeto do pacote @woiciechoski/electron-react.
 
 ## Uso
 
