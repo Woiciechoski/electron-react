@@ -1,7 +1,5 @@
 module.exports = {
-  packagerConfig: {
-    ignore: ['app/src', 'app/public']
-  },
+  packagerConfig: {ignore: ['app', 'scripts']},
   rebuildConfig: {},
   makers: [
     {

@@ -1,26 +1,22 @@
 {
   "name": "@woiciechoski/electron-react",
   "productName": "electron-react",
-  "version": "0.0.3-beta.1",
+  "version": "1.0.0-beta.1",
   "description": "Base para criar projeto electron utilizando react",
-  "main": "app/electron/index.js",
-  "repository": {
-    "type": "github",
-    "url": "https://github.com/Woiciechoski/electron-react"
-  },
+  "main": "src/index.js",
   "homepage": "./",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
-    "publish-app": "electron-forge publish",
-    "lint": "echo \"No linting configured\""
+    "publish": "electron-forge publish",
+    "build-react": "node scripts/build-react.js",
+    "dev": "node scripts/start-dev.js"
   },
   "keywords": [],
   "author": {
     "name": "Willian Woiciechoski",
-    "email": "wwoiciechoski@gmail.com",
-    "url": "https://github.com/Woiciechoski/electron-react"
+    "email": "wwoiciechoski@gmail.com"
   },
   "license": "MIT",
   "dependencies": {
@@ -32,6 +28,7 @@
     "@electron-forge/maker-rpm": "^6.1.1",
     "@electron-forge/maker-squirrel": "^6.1.1",
     "@electron-forge/maker-zip": "^6.1.1",
-    "electron": "24.1.2"
+    "electron": "24.1.3",
+    "fs-extra": "^11.1.1"
   }
 }
